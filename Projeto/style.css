@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bebas Neue', 'cursive';
+}
+
+.header{
+    background-image: url(../Projeto/img/header.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header img{
+    width: 300px;
+    padding-top: 30px;
+}
+
+.container{
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar{
+    width: 20%;
+    padding: 50px;
+    
+}
+
+h1{
+    font-family: 'Bebas Neue', 'cursive';
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.none{
+    list-style: none;
+    text-decoration: none;
+}
+
+.articlebar{
+    width: 100%;
+    background: rgb(190, 247, 239);
+    padding: 20px 450px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 50px 0 0 0;
+    font-size: larger; 
+}
+
+.articlebartwo{
+    width: 100%;
+    background: rgb(190, 247, 239);
+    padding: 20px 250px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 50px 0 0 0;
+    font-size: larger; 
+}
+
+.padding{
+    padding-top: 40px;
+}
+
+.box{
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 20%;
+    font-weight: 900;
+}
+
+.button{
+    border-radius: 0px 0px 10px 10px;
+    background: rgb(0, 136, 118);
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    color: rgb(240, 240, 240);
+    display: block;
+    margin-bottom: 10px;  
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px 0;
+    background: rgb(8, 99, 102);
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+    
